@@ -1,0 +1,15 @@
+### sign in
+POST http://localhost:8080/user/signin
+Content-Type: application/json
+
+{
+    "email": "ya@test.com",
+    "password": "123"
+}
+
+### whoami
+GET http://localhost:8080/auth/whoami
+
+### signout
+POST http://localhost:8080/user/signout
+
